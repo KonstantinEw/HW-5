@@ -77,17 +77,18 @@
 
 //6
 
-// let userName = {};
-// let result = window.prompt (`Введите Ваше имя: `);
+let userName = {
+    names: null
+};
 
-// result = userName;
+let result = window.prompt (`Введите Ваше имя: `);
 
-// console.log(userName)
+userName.names = result;
 
-// if (userName === result ) {
-//     alert('Добро пожаловать');
-// }
-
+if (userName.names === result ) {
+    alert('Добро пожаловать');
+}
+console.log(userName.names);
 //7
 
 //8
