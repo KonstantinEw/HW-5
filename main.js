@@ -77,18 +77,19 @@
 
 //6
 
-let userName = {
-    names: null
-};
+// let userName = {
+//     names: null
+// };
 
-let result = window.prompt (`Введите Ваше имя: `);
+// let result = window.prompt (`Введите Ваше имя: `);
 
-userName.names = result;
+// userName.names = result;
 
-if (userName.names === result ) {
-    alert('Добро пожаловать');
-}
-console.log(userName.names);
+// if (userName.names === result ) {
+//     alert('Добро пожаловать');
+// }
+// console.log(userName.names);
+
 //7
 
 //8
@@ -109,3 +110,20 @@ console.log(userName.names);
 // if(student2 == student1){
 //     console.log(true);
 // }
+
+//9
+
+// const animals = {
+//     cat: {
+//         name: 'Енчик',
+//         age: 3,
+//     },
+//     dog: {
+//         name: 'Орео',
+//         age: 2,
+//     }
+// } 
+
+// if ('Bird' in animals) {
+//     console.log(animals.bird);
+// } else ( console.log('Bird is not found'));
